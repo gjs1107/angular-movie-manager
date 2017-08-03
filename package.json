@@ -21,8 +21,11 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
+    "bootstrap": "^4.0.0-alpha.6",
     "core-js": "^2.4.1",
+    "ngx-bootstrap": "^1.8.1",
     "rxjs": "^5.4.1",
+    "systemjs": "^0.20.17",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
@@ -42,6 +45,7 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.2",
+    "systemjs": "^0.20.17",
     "ts-node": "~3.0.4",
     "tslint": "~5.3.2",
     "typescript": "~2.3.3"
