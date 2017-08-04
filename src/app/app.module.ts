@@ -4,6 +4,7 @@ import { FormsModule }   from '@angular/forms'; // <-- NgModel lives here
 import { AlertModule } from 'ngx-bootstrap';
 
 import { AppComponent } from './app.component';
+import { TopMenuComponent } from './pages/common/topmenu/topmenu.component';
 import { SideBarComponent } from './pages/common/sidebar/sidebar.component';
 import { MovieAddrComponent } from './pages/movie/movie-add.component';
 import { GameAddrComponent } from './pages/game/game-add.component';
@@ -16,6 +17,7 @@ import { AppRoutingModule }     from './router/app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
+    TopMenuComponent,
     SideBarComponent,
     MovieAddrComponent,
     GameAddrComponent,
